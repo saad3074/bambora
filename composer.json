@@ -1,0 +1,22 @@
+{
+  "name" : "saad3074/bambora",
+  "description" : "Bambora SDK for API v1.0.5",
+  "version" : "1.0.0",
+  "keywords" : ["Bambora", "payment", "API"],
+  "license" : "MIT",
+  "authors" : [
+    {
+      "name" : "Saad Khan",
+      "email" : "nightwakers007@yahoo.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "saad3074\\Bambora\\": ["src/"]
+    }
+  }
+}
